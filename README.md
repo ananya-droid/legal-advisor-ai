@@ -10,7 +10,7 @@ A professional AI-powered legal assistant specialized in Indian law, providing g
 
 https://legal-advisor-ai-kmmtuczo7ltm2rihj5actd.streamlit.app/
 
-*Replace with your actual Streamlit Cloud link*
+
 
 ## ✨ Features
 
