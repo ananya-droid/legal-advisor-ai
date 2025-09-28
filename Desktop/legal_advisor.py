@@ -38,7 +38,7 @@ legal_safety_settings = [
 ]
 
 legal_model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash-latest",
+    legal_model = genai.GenerativeModel("gemini-pro")
     generation_config=legal_generation_config,
     safety_settings=legal_safety_settings
 )
