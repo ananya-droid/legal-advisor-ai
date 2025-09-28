@@ -37,11 +37,11 @@ legal_safety_settings = [
     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
 ]
 
-legal_model = genai.GenerativeModel("models/gemini-2.0-flash-lite"),
+legal_model = genai.GenerativeModel(
+    "models/gemini-2.0-flash",
     generation_config=legal_generation_config,
     safety_settings=legal_safety_settings
 )
-
 # LEGAL SYSTEM PROMPT - This makes it a legal advisor
 LEGAL_ADVISOR_PROMPT = """You are LegalBot, an AI legal advisor specializing in Indian law. You provide:
 
